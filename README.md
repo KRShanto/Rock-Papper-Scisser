@@ -1,1 +1,1 @@
-# A rock papper scisser game
+# A very basic rock papper scisser game
