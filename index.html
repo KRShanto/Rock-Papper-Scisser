@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game</title>
+        
+        
+        <!-- javascript Link-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js" type="text/javascript" charset="utf-8"></script> 
+       <!--Css Link-->
+ <link rel="stylesheet" href="index.css" type="text/css" media="all" />       
+    </head>
+  <body>
+ <!-- Main Div -->   
+ <div id="mainDiv">
+     <!-- Main Title -->
+    <h1 id="top">Rock-Papper-Scissor</h1>
+    
+    <!-- Name Div -->
+         <div id="name">
+             <div id="userName">
+                 <h2><!--Comes from JS --></h2>
+             </div>
+            <h1 id="vs">VS</h1>
+             <div id="compName">
+                 <h2>Computer</h2>
+             </div> 
+         </div>
+         
+    <!-- Choices Card, it will show what choice you and Computer took-->  
+         <div id="choiceCard">
+             
+             <div id="choice1">
+                <h3>Your Choise : </h3>
+                <h1><!--Comes from JS--></h1> 
+            </div>
+            
+             <div id="choice2">
+                <h3>Computer Choise : </h3>
+                <h1><!-- Comes From javascript--></h1> 
+            </div>
+            
+         </div>
+         
+     <!-- User Choices  --> 
+      <div id="choises">
+            <span id="rock" class="choose">✊</span>  
+            <span id="papper" class="choose">🖐️</span>  
+            <span id="scissor" class="choose">✌️</span>  
+      </div> 
+      
+    <!-- It will show the result (Win/lose/draw) -->  
+      <div id="decision">
+          <h1><!-- Comes from javascript--> </h1>
+      </div>
+
+     
+    <!-- It Will increase the score of the user and computer --> 
+   <div id="mainScore">
+        <table>
+           <tr>
+               <th>Your Score</th>
+               <th>Computer Score</th>
+               <th>Draw Score</th>
+           </tr>
+           <tr>
+               <td id="SusrScore">0</td>
+               <td id="ScompScore">0</td>
+               <td id="SdrawScore">0</td>
+           </tr>
+        </table>
+   </div>
+     
+     
+  </div><!-- Main Div ending -->
+ </body>
+  
+</html>

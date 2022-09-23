@@ -1,0 +1,191 @@
+*{
+    /* Main Heading Codes */
+    margin: 0;
+    padding: 0;
+}
+html{
+    user-select: none;
+    font-size: 62.5%;
+    /* 1 rem == 10px(custom) */
+}
+#mainDiv{
+    width: 100vw;
+    height: 120vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36c7ec;
+    
+}
+#choises{
+   font-size: 4rem;
+   position: absolute;
+   top: 45rem;
+}
+.choose{
+   border: 1px solid black;
+   border-radius: 50%;
+   padding: 1rem;
+   background-color: #4a1eff;
+}
+#top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #39d7ff;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+   font-size: 3rem;
+}
+#name{
+    position: absolute;
+    top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    color: yellow;
+    text-shadow: 2px 1px 2px black;
+}
+#userName{
+    position: absolute;
+    left:1.5rem;
+    display: flex;
+}
+
+#compName{
+    position: absolute;
+    right:1.5rem;
+    display: flex;
+}
+
+
+#vs{
+    position: relative;
+    right: 0.3rem;
+    font-size: 5rem;
+    color: #ff4b4b;
+    text-shadow: 1px 2px 1px black;
+}
+
+/* Choice Card */
+#choiceCard{
+    position: absolute;
+    top: 16rem;
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    color: white;
+    
+}
+#choice1 {
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#3f7ef7,#4e91f8e2, #37a0f6b9, #528fff, #1161d5c1,#0081cd);
+    background-size: 300%;
+    animation: animate 5s linear infinite ;
+    text-shadow: 3px 3px 2px black;
+    box-shadow: 2px 2px 3px black;
+}
+#choice1 h3{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.9rem;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 0 0 0 black;
+}
+#choice2 {
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#3f7ef7,#4e91f8e2, #37a0f6b9, #528fff, #3e86e4e4,#0081cd);
+    background-size: 300%;
+    animation: animate 5s linear infinite ;
+    text-shadow: 3px 3px 2px black;
+    box-shadow: 2px 2px 3px black;
+}
+#choice2 h3{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.9rem;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 0 0 0 black;
+}
+#decision{
+    position: absolute;
+    top: 50rem;
+    font-size: 2.5rem;
+}
+#btn{
+    position: absolute;
+    top: 60rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #df4001;
+    color: white;
+    border: none;
+}
+#mainScore{
+    position: absolute;
+    top: 60rem;
+    
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+table th {
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 1.5rem;
+    
+
+}
+table td {
+    border: 1px solid  black;
+    padding: 6px;
+    font-size: 1.5rem;
+}
+
+/* Animations */
+@keyframes animate{
+    0%{
+         background-position: 0 50%;
+  }
+    20%{}
+    40%{}
+    60%{
+         background-position: 100% 50%;
+        
+    }
+    80%{}
+    100%{
+         background-position: 0 50%;
+        }
+}
